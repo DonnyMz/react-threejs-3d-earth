@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap");
+
+.loading {
+  text-align: center;
+  height: 100vh;
+}
+
+.loading-wc,
+.global-w {
+  display: flex;
+  justify-content: center;
+}
+.loading-wc {
+  transition: all 2s ease;
+  opacity: 1;
+  animation: wc-appear 2s ease;
+}
+@keyframes wc-appear {
+  0% {
+    opacity: 0;
+    filter: grayscale(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: grayscale(90%);
+  }
+}
+
+.loading-wc-title {
+  font-family: "Orbitron", sans-serif;
+  letter-spacing: 1.3px;
+  font-size: 33px;
+  color: aliceblue;
+}
+
+.loading-title {
+  font-family: "Courier New", Courier, monospace, sans-serif;
+  letter-spacing: 1.3px;
+  font-size: 33px;
+  margin-top: 200px;
+}
+
+.global-w-title {
+  font-family: "Courier New", Courier, monospace, sans-serif;
+  color: aliceblue;
+  letter-spacing: 1.3px;
+  font-size: 33px;
+  margin-top: 200px;
+
+  opacity: 1;
+  animation: loading-date-appear 6s ease;
+}
+@keyframes loading-date-appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

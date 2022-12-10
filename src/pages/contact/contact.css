@@ -1,0 +1,39 @@
+.contact {
+  background-color: rgb(53, 90, 90);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contact-icons figure {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.contact-icons figure a {
+  color: rgb(1, 93, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icons-cell {
+  padding: 2rem;
+}
+.contact-icons figure:hover {
+  background-color: rgb(148, 148, 148);
+  border-radius: 1px;
+}
+.contact-title {
+  letter-spacing: 2px;
+  color: aliceblue;
+}
+.icons {
+  font-size: 100px;
+}

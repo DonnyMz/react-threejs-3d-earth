@@ -1,0 +1,39 @@
+.main-top-spinner {
+  overflow: hidden;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-spinner {
+    animation: spinner-loading infinite 0.9s linear;
+  }
+}
+
+@keyframes spinner-loading {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.text-pulsing {
+  animation: pulsate 1s ease-out;
+  animation-iteration-count: infinite;
+  opacity: 0.5;
+  color: orangered;
+}
+@keyframes pulsate {
+  0% {
+    opacity: 0.5;
+    color: orangered;
+  }
+  50% {
+    opacity: 1;
+    color: rgb(255, 255, 255);
+  }
+  100% {
+    opacity: 0.5;
+    color: orangered;
+  }
+}

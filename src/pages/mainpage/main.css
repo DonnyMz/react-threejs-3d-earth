@@ -1,0 +1,60 @@
+.bg-hero {
+  background-image: url("https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ourWorld-hero {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.hero-title {
+  margin-top: -100px;
+  font-family: "Orbitron";
+  color: rgb(83, 139, 187);
+}
+
+.giArrow {
+  margin-top: 100px;
+  padding: 1rem 0.5rem;
+  border-radius: 100%;
+  width: 50px;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  animation: pulsingArrow 2s infinite;
+  cursor: pointer;
+}
+@keyframes pulsingArrow {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+.what-can-do {
+  margin-top: 150px;
+  height: 100%;
+}
+.what-can-do h1 {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "orbitron";
+}
+.what-can-do p {
+  padding: 0 1rem;
+  font-size: 20px;
+  font-family: sans-serif;
+}

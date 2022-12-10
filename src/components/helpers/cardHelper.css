@@ -1,0 +1,7 @@
+.cards-helper {
+  position: absolute;
+  top: 0;
+  background-image: linear-gradient(to right, black, #26122f);
+  width: 100vw;
+  height: 100%;
+}

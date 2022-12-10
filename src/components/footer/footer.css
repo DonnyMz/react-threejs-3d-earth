@@ -1,0 +1,14 @@
+.footer {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(3, 34, 91);
+}
+.footer-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer-text {
+  color: aliceblue;
+}

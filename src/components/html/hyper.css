@@ -1,0 +1,46 @@
+@import url("https://rsms.me/inter/inter.css");
+canvas {
+  touch-action: none;
+}
+
+.annotation {
+  margin-left: -190px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50px;
+}
+.annotation .btn {
+  touch-action: none;
+  width: 90px;
+  font-family: "Orbitron", sans-serif;
+  background: rgb(97, 52, 31);
+  outline: none;
+  padding: 7px 10px;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 8px;
+  font-weight: 300;
+  border-radius: 7px;
+  letter-spacing: 1px;
+  transition: all 0.5s ease;
+}
+
+.annotation a:hover {
+  background: blue;
+  border-radius: 1px;
+}
+
+@media (min-width: 500px) {
+  .annotation {
+    margin-left: -200px;
+  }
+}
+@media (min-width: 820px) {
+  .annotation {
+    margin-left: -250px;
+  }
+}
