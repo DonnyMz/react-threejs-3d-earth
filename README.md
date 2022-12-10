@@ -1,6 +1,6 @@
 # Getting Started with three
 
-NPM JavaScript 3D library [Threejs](https://www.npmjs.com/package/three).\
+JavaScript 3D library [Threejs](https://www.npmjs.com/package/three).
 
 Documentation [Threejs](https://threejs.org/).
 
